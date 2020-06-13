@@ -10,7 +10,6 @@ script:
 
 language: generic
 
-
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
