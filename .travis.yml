@@ -11,7 +11,7 @@ script:
 language: generic
 
 deploy:
-  provider: elasticbeanstalk
+  provider: s3
   region: "us-east-2"
   app: "docker-react"
   env: "DockerReact-env"
